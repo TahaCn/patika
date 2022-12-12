@@ -1,0 +1,11 @@
+Root 5'tir. 5'ten küçük değerler sola 5'ten büyük değerler ise sağına yazılacaktır. 
+5'ten büyük olanlar = 6,7,8,9
+5'ten küçük olanlar = 0,1,2,3,4
+Rootumuzu seçerken sağı ve solunun dengeli olmasına dikkat etmeliyiz ki işlemimiz hızlı olsun. 
+
+Şema şu şekilde gösterilebilir. -->
+                                               5
+                                           3       7  
+                                         2  4    6   8
+                                       1               9
+                                     0  
