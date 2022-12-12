@@ -1,0 +1,21 @@
+[22,27,16,2,18,6] -> Insertion Sort
+ İlk soru
+1.adım -- [2,27,16,22,18,6] En küçük eleman bulnup başa eklenir. (n)
+2.adım -- [2,6,16,22,18,27] En küçük ikinci eleman 2. sıradaki elemanla yer değiştirir. (n-1)
+3.adım -- [2,6,16,22,18,27] En küçük üçüncü eleman kendi sırasında. O yüzden işlem yaapılmaz. Bir sonraki adıma geçilir. (n-2)
+4.adım -- [2,6,16,18,22,27] En küçük dördüncü eleman 4. sıradaki elemanla yer değiştirir. (n-3)
+
+İkinci soru
+
+n+(n-1)+(n-2)+…+1= n(n+1)/2 en son genel olarak işlem (n^2+n)/2 olur. Bu işelmde domine eden n^2 olduğu için O(n^2) olur. (Katsayılar önemsenmez)
+
+Üçüncü soru
+
+18 sayısı başta değil, sondada değil o yüzden Average Case kapsamına girer.
+
+Dördüncü soru
+
+1.adım -- [2,3,5,8,7,9,4,15,6] En küçük eleman bulnup başa eklenir. (n)
+2.adım -- [2,3,5,8,7,9,4,15,6] En küçük ikinci eleman kendi sırasında. O yüzden işlem yapılmaz bir sonraki adıma geçilir. (n-1)
+3.adım -- [2,3,4,8,7,9,5,15,6] En küçük üçüncü eleman 3. sıradaki elemanla yer değiştirir. (n-2)
+4.adım -- [2,3,4,5,7,9,8,15,6] En küçük dördüncü eleman 4. sıradaki elemanla yer değiştirir. (n-3) 
