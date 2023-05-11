@@ -1,0 +1,15 @@
+1- CREATE TABLE employee(
+        id SERIAL PRIMARY KEY,
+        name VARCHAR(50) NOT NULL,
+        birthday DATE,
+        email VARCHAR(100)
+)
+
+2- insert info employee (name, birthday, email) values ('John','1986-05-12','john@....');
+...
+
+3- UPDATE employee SET name = "Robert" WHERE id = 13;
+UPDATE employee SET email = 'john....' WHERE birthday = '1987-04-05';
+
+4- DELETE FROM employee WHERE id = 10;
+DELETE FROM employee WHERE name = "Robert";
